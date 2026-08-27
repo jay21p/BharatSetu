@@ -8,31 +8,34 @@
     android:background="#F8F9FA"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
+    <TextView
+        android:id="@+id/appTitleText"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_marginTop="48dp"
-        android:adjustViewBounds="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:letterSpacing="0.04"
+        android:text="DisasterX"
+        android:textColor="#1A237E"
+        android:textSize="32sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/textlogo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/teamNameText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:letterSpacing="0.1"
-        android:text="TEAM ACHIEVERS"
+        android:layout_marginTop="4dp"
+        android:letterSpacing="0.08"
+        android:text="AI EARLY WARNING SYSTEM • TEAM ACHIEVERS"
         android:textAllCaps="true"
         android:textColor="#3F51B5"
-        android:textSize="16sp"
+        android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/appTitleText" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
